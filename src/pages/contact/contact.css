@@ -1,0 +1,53 @@
+.contact-content {
+    /* height: 100vh; */
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+}
+
+.error {
+    border: 1px solid rgb(243, 116, 116);
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 20px;
+}
+
+.contact-content form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border: 1px solid rgba(128, 0, 128, 0.11);
+    padding: 30px;
+    width: 50%;
+    height: 100%;
+}
+.contact-content form button {
+    width: 40%;
+    cursor: pointer;
+
+}
+
+.error-text {
+    background-color: rgba(248, 179, 179, 0.664);
+    color: red;
+    padding: 10px;
+    width: 40%;
+}
+.sent-msg {
+    color: green;
+    border: 1px solid green;
+    padding: 10px;
+}
